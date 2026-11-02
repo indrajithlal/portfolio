@@ -1,4 +1,1 @@
-function showMessage() {
-    document.getElementById("message").innerText =
-        "Your GitHub Pages website is working!";
-}
+document.getElementById("year").textContent = new Date().getFullYear();
